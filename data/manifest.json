@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-15T09:52:39.214193+00:00",
+  "generated_at_utc": "2026-06-15T09:55:59.723401+00:00",
   "files": [
     "alerts.csv",
     "career_scorecard.csv",
@@ -18,12 +18,12 @@
     "modeling_note": "State shortage/supply-demand scores are derived planning indicators, not official BLS/NCSBN state shortage percentages. They combine OEWS employment/wage density with national NCSBN exit intent, BLS opening rates, and HRSA-style supply-demand framing. Replace with licensed HRSA/state board data when available."
   },
   "row_counts": {
-    "holdings_valuation.csv": 15,
-    "workforce_state_setting.csv": 480,
     "market_metrics.csv": 3,
-    "career_scorecard.csv": 3,
     "alerts.csv": 1,
-    "education_attainment.csv": 2,
-    "market_prices.csv": 813
+    "career_scorecard.csv": 3,
+    "holdings_valuation.csv": 15,
+    "workforce_state_setting.csv": 459,
+    "market_prices.csv": 813,
+    "education_attainment.csv": 2
   }
 }
