@@ -1,0 +1,4 @@
+occupation,median_wage,growth_2034_pct,annual_openings,retirement_exit_rate_5y_pct,typical_education,tuition_proxy,simple_payback_years_vs_45k_baseline,regional_job_opening_density_pct,avg_shortage_pct_proxy,supply_demand_scenario_pct,economic_impact_proxy_usd_b,career_demand_score_0_100
+RN,93600,5,189100,39.9,Bachelor's degree,45000,0.93,5.58,13.36,0,0.0,82.0
+LPN,62340,3,54400,41.3,Postsecondary nondegree award,18000,1.04,8.35,17.5,-28,11.37,100.0
+APRN,132050,35,32700,39.9,Master's degree,75000,0.86,8.54,14.56,67,33.86,100.0

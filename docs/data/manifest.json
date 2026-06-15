@@ -1,0 +1,29 @@
+{
+  "generated_at_utc": "2026-06-15T09:52:39.214193+00:00",
+  "files": [
+    "alerts.csv",
+    "career_scorecard.csv",
+    "correlation_matrix.csv",
+    "education_attainment.csv",
+    "holdings_valuation.csv",
+    "market_metrics.csv",
+    "market_prices.csv",
+    "workforce_state_setting.csv"
+  ],
+  "sources": {
+    "finance_prices": "Yahoo Finance via yfinance. Direct index tickers where available; MSCI World Health Care is proxied with iShares Global Healthcare ETF (IXJ) because public free real-time index levels are not consistently available.",
+    "bls_oews": "BLS OEWS May 2025 state tables: https://www.bls.gov/oes/tables.htm (XLSX link /oes/special-requests/oesm25st.zip)",
+    "bls_ooh": "BLS Occupational Outlook Handbook 2024-2034: RNs 5% growth/$93,600 median; LPN/LVN 3% growth/$62,340 median; APRNs 35% growth/$132,050 median.",
+    "ncsbn": "NCSBN 2024 National Nursing Workforce Study: >138,000 nurses left since 2022; almost 40% intend to leave by 2029; RN intent 39.9%, LPN/VN intent 41.3% noted in NCSBN 2026 survey announcement.",
+    "modeling_note": "State shortage/supply-demand scores are derived planning indicators, not official BLS/NCSBN state shortage percentages. They combine OEWS employment/wage density with national NCSBN exit intent, BLS opening rates, and HRSA-style supply-demand framing. Replace with licensed HRSA/state board data when available."
+  },
+  "row_counts": {
+    "holdings_valuation.csv": 15,
+    "workforce_state_setting.csv": 480,
+    "market_metrics.csv": 3,
+    "career_scorecard.csv": 3,
+    "alerts.csv": 1,
+    "education_attainment.csv": 2,
+    "market_prices.csv": 813
+  }
+}

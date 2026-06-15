@@ -1,0 +1,2 @@
+type,index,ticker,deviation_pct,threshold_pct
+30DMA deviation,S&P 500 Health Care Select Sector Index,^SP500-35,3.71,3
