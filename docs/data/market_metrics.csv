@@ -1,4 +1,4 @@
 index,ticker,region,proxy,latest_date,latest_close,12m_return_pct,ann_volatility_pct,30dma,deviation_from_30dma_pct
-S&P 500 Health Care Select Sector Index,^SP500-35,United States,False,2026-06-12,1789.23,16.52,15.16,1725.19,3.71
-MSCI World Health Care Index (IXJ ETF proxy),IXJ,Global developed,True,2026-06-12,96.25,16.07,15.01,93.61,2.83
-Nifty Healthcare Index (^CNXPHARMA proxy),^CNXPHARMA,India,True,2026-06-15,24212.3,11.83,14.01,24301.97,-0.37
+S&P 500 Health Care Select Sector Index,^SP500-35,United States,False,2026-06-12,1789.23,14.41,14.92,1725.19,3.71
+MSCI World Health Care Index (IXJ ETF proxy),IXJ,Global developed,True,2026-06-17,93.6,11.55,14.74,93.08,0.56
+Nifty Healthcare Index (^CNXPHARMA proxy),^CNXPHARMA,India,True,2026-06-18,24148.5,11.08,13.97,24345.5,-0.81
