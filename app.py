@@ -80,6 +80,17 @@ if module.startswith("A"):
     h = holdings[holdings["region"].isin(region)] if region else holdings
     st.dataframe(h, use_container_width=True, hide_index=True)
     st.caption("Earnings-surprise values may be blank when the free source does not expose the field for a symbol/exchange.")
+    st.markdown("""
+    ### Analysis summary + implications for NIN-NAIO
+    The market dashboard turns global healthcare capital flows into an early signal for where hospitals, payers, life-science firms, and digital-health vendors may accelerate or defer AI investments. Relative performance, volatility, valuation gaps, and 30DMA deviations help NIN-NAIO read whether healthcare leaders are operating in expansion, caution, or repricing mode.
+
+    **Implication:** NAIO should position nurse-led AI governance as risk infrastructure, not optional innovation theater. When healthcare valuations diverge across the United States, global developed markets, and India, the opportunity is to teach nurses and executives how to govern AI investment choices across different economic regimes while preserving safety, dignity, and human judgment.
+
+    **3 strategic moves**
+    1. **Course creation:** Launch *Healthcare AI Market Intelligence for Nurse Leaders* — a short executive course teaching nurses how to interpret healthcare market signals, vendor funding cycles, valuation pressure, and governance risk before AI procurement.
+    2. **App development:** Add a Florence-X *Market-to-Governance Signal Agent* that converts index moves, valuation discrepancies, and earnings shocks into procurement-risk briefs for nurse AI councils.
+    3. **General program:** Create a quarterly NIN *Healthcare AI Capital + Safety Briefing* connecting market movement to AI deployment risk, workforce burden, and nurse-led governance priorities.
+    """)
 
 elif module.startswith("B"):
     st.header("B) 2026 Nursing Workforce Shortage Monitor")
@@ -112,6 +123,17 @@ elif module.startswith("B"):
         k4.metric("Critical rows >25%", int((df['shortage_pct_proxy'] > 25).sum()))
         st.dataframe(df.sort_values("shortage_pct_proxy", ascending=False), use_container_width=True, hide_index=True)
         st.info("State shortage percentages are modeled planning indicators unless `data_quality` says BLS_OEWS_2025_download. Use them for triage, not formal regulatory filings.")
+        st.markdown("""
+        ### Analysis summary + implications for NIN-NAIO
+        The workforce dashboard converts shortage pressure, wage variation, retirement-exit risk, and setting-specific demand into a practical map of where nursing capacity is most fragile. Hospitals, outpatient care, and nursing facilities do not face the same workforce problem; each setting needs a different AI-governance, redesign, and education response.
+
+        **Implication:** NIN-NAIO can become the connective tissue between workforce planning and responsible AI adoption. The strategic message is simple: AI should first reduce avoidable cognitive and administrative burden in the settings and regions where nurses are under the greatest pressure, while giving bedside nurses a formal voice in deployment decisions.
+
+        **3 strategic moves**
+        1. **Course creation:** Build *Nurse Workforce Intelligence + AI Readiness* — a course for nurse managers and educators on reading shortage maps, prioritizing AI use cases, and creating governance-ready staffing interventions.
+        2. **App development:** Develop a Florence-X *Workforce Burden Radar* that combines shortage, wage, retirement-exit, and setting demand signals into unit-level or regional risk briefs for nursing leaders.
+        3. **General program:** Launch a NIN *Regional Nurse AI Stewardship Fellowship* focused on high-gap states/settings, pairing nurses with mentors to identify burden-reduction workflows and governance safeguards.
+        """)
 
 elif module.startswith("C"):
     st.header("C) Nursing Career-Demand Scorecard")
@@ -128,6 +150,17 @@ elif module.startswith("C"):
         e = edu.melt(id_vars=["year", "source"], value_vars=["associate_or_diploma_pct", "bachelor_or_higher_pct"], var_name="attainment", value_name="pct")
         st.plotly_chart(px.line(e, x="year", y="pct", color="attainment", markers=True, title="RN educational-attainment shift"), use_container_width=True)
         st.dataframe(edu, use_container_width=True, hide_index=True)
+    st.markdown("""
+    ### Analysis summary + implications for NIN-NAIO
+    The career dashboard shows that nursing demand is not one labor market. RN, LPN, and APRN pathways have different growth rates, wage returns, retirement-exit exposure, educational barriers, and shortage/surplus scenarios. This creates an opening for NIN-NAIO to guide nurses toward roles that combine clinical judgment, AI fluency, and governance authority.
+
+    **Implication:** NAIO should treat career mobility as governance infrastructure. The field needs more than prompt literacy; it needs nurses who can translate bedside realities into AI oversight, workflow redesign, product validation, and institutional decision rights.
+
+    **3 strategic moves**
+    1. **Course creation:** Create *Nurse AI Career Pathways 2034* — a credential roadmap covering RN, LPN, APRN, informatics, AI governance, and Nurse AI Orchestrator roles with ROI and regional demand lenses.
+    2. **App development:** Build a NIN *Career ROI Navigator* that lets nurses compare credentials, wages, openings, retirement-exit pressure, and AI-governance career tracks by region.
+    3. **General program:** Stand up a *Nurse AI Orchestrator Accelerator* that converts experienced bedside nurses into governance fellows, workflow analysts, AI safety reviewers, and institutional AI council candidates.
+    """)
 
 else:
     st.header("Sources, assumptions, and limits")

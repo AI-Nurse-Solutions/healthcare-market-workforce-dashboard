@@ -89,14 +89,46 @@ html = f"""<!doctype html>
     <div class="card span6"><h2>Correlation matrix</h2><div id="corrTable" class="scroll"></div></div>
     <div class="card span6"><h2>Volatility metrics</h2><div id="metricsTable" class="scroll"></div></div>
     <div class="card span12"><h2>Top-5 holdings valuation comparison</h2><div id="holdingsTable" class="scroll"></div></div>
+    <div class="card span12"><h2>Analysis summary + implications for NIN-NAIO</h2>
+      <p>The market dashboard turns global healthcare capital flows into an early signal for where hospitals, payers, life-science firms, and digital-health vendors may accelerate or defer AI investments. Relative performance, volatility, valuation gaps, and 30DMA deviations help NIN-NAIO read whether healthcare leaders are operating in expansion, caution, or repricing mode.</p>
+      <p><strong>Implication:</strong> NAIO should position nurse-led AI governance as risk infrastructure, not optional innovation theater. When healthcare valuations diverge across the United States, global developed markets, and India, the opportunity is to teach nurses and executives how to govern AI investment choices across different economic regimes while preserving safety, dignity, and human judgment.</p>
+      <h3>3 strategic moves</h3>
+      <ol>
+        <li><strong>Course creation:</strong> Launch <em>Healthcare AI Market Intelligence for Nurse Leaders</em> — a short executive course teaching nurses how to interpret healthcare market signals, vendor funding cycles, valuation pressure, and governance risk before AI procurement.</li>
+        <li><strong>App development:</strong> Add a Florence-X <em>Market-to-Governance Signal Agent</em> that converts index moves, valuation discrepancies, and earnings shocks into procurement-risk briefs for nurse AI councils.</li>
+        <li><strong>General program:</strong> Create a quarterly NIN <em>Healthcare AI Capital + Safety Briefing</em> connecting market movement to AI deployment risk, workforce burden, and nurse-led governance priorities.</li>
+      </ol>
+    </div>
   </div>
 </section>
 <section id="workforce">
   <div class="card"><h2>Filters</h2><label>State <select id="stateFilter" multiple></select></label><label>Occupation <select id="occFilter" multiple></select></label><label>Setting <select id="settingFilter" multiple></select></label><button onclick="renderWorkforce()">Apply</button></div><br>
-  <div class="grid"><div class="card span6"><h2>Supply vs demand</h2><div id="supplyDemandChart"></div></div><div class="card span6"><h2>Highest shortage-risk proxy</h2><div id="shortageChart"></div></div><div class="card span12"><h2>State-by-state workforce table</h2><div id="workforceTable" class="scroll"></div></div></div>
+  <div class="grid"><div class="card span6"><h2>Supply vs demand</h2><div id="supplyDemandChart"></div></div><div class="card span6"><h2>Highest shortage-risk proxy</h2><div id="shortageChart"></div></div><div class="card span12"><h2>State-by-state workforce table</h2><div id="workforceTable" class="scroll"></div></div>
+    <div class="card span12"><h2>Analysis summary + implications for NIN-NAIO</h2>
+      <p>The workforce dashboard converts shortage pressure, wage variation, retirement-exit risk, and setting-specific demand into a practical map of where nursing capacity is most fragile. Hospitals, outpatient care, and nursing facilities do not face the same workforce problem; each setting needs a different AI-governance, redesign, and education response.</p>
+      <p><strong>Implication:</strong> NIN-NAIO can become the connective tissue between workforce planning and responsible AI adoption. The strategic message is simple: AI should first reduce avoidable cognitive and administrative burden in the settings and regions where nurses are under the greatest pressure, while giving bedside nurses a formal voice in deployment decisions.</p>
+      <h3>3 strategic moves</h3>
+      <ol>
+        <li><strong>Course creation:</strong> Build <em>Nurse Workforce Intelligence + AI Readiness</em> — a course for nurse managers and educators on reading shortage maps, prioritizing AI use cases, and creating governance-ready staffing interventions.</li>
+        <li><strong>App development:</strong> Develop a Florence-X <em>Workforce Burden Radar</em> that combines shortage, wage, retirement-exit, and setting demand signals into unit-level or regional risk briefs for nursing leaders.</li>
+        <li><strong>General program:</strong> Launch a NIN <em>Regional Nurse AI Stewardship Fellowship</em> focused on high-gap states/settings, pairing nurses with mentors to identify burden-reduction workflows and governance safeguards.</li>
+      </ol>
+    </div>
+  </div>
 </section>
 <section id="careers">
-  <div class="grid"><div class="card span12"><h2>Nursing career-demand scorecard</h2><div id="careerScoreChart"></div><div id="scoreTable" class="scroll"></div></div><div class="card span6"><h2>ROI proxy</h2><div id="roiChart"></div></div><div class="card span6"><h2>Educational attainment shift</h2><div id="eduChart"></div></div></div>
+  <div class="grid"><div class="card span12"><h2>Nursing career-demand scorecard</h2><div id="careerScoreChart"></div><div id="scoreTable" class="scroll"></div></div><div class="card span6"><h2>ROI proxy</h2><div id="roiChart"></div></div><div class="card span6"><h2>Educational attainment shift</h2><div id="eduChart"></div></div>
+    <div class="card span12"><h2>Analysis summary + implications for NIN-NAIO</h2>
+      <p>The career dashboard shows that nursing demand is not one labor market. RN, LPN, and APRN pathways have different growth rates, wage returns, retirement-exit exposure, educational barriers, and shortage/surplus scenarios. This creates an opening for NIN-NAIO to guide nurses toward roles that combine clinical judgment, AI fluency, and governance authority.</p>
+      <p><strong>Implication:</strong> NAIO should treat career mobility as governance infrastructure. The field needs more than prompt literacy; it needs nurses who can translate bedside realities into AI oversight, workflow redesign, product validation, and institutional decision rights.</p>
+      <h3>3 strategic moves</h3>
+      <ol>
+        <li><strong>Course creation:</strong> Create <em>Nurse AI Career Pathways 2034</em> — a credential roadmap covering RN, LPN, APRN, informatics, AI governance, and Nurse AI Orchestrator roles with ROI and regional demand lenses.</li>
+        <li><strong>App development:</strong> Build a NIN <em>Career ROI Navigator</em> that lets nurses compare credentials, wages, openings, retirement-exit pressure, and AI-governance career tracks by region.</li>
+        <li><strong>General program:</strong> Stand up a <em>Nurse AI Orchestrator Accelerator</em> that converts experienced bedside nurses into governance fellows, workflow analysts, AI safety reviewers, and institutional AI council candidates.</li>
+      </ol>
+    </div>
+  </div>
 </section>
 <section id="sources">
   <div class="card"><h2>Sources, assumptions, and limits</h2><div id="sourcesBlock"></div><p><a href="data/manifest.json">Download manifest</a> · <a href="data/market_prices.csv">Market prices CSV</a> · <a href="data/workforce_state_setting.csv">Workforce CSV</a></p></div>
