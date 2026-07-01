@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-18T07:37:05.216433+00:00",
+  "generated_at_utc": "2026-07-01T11:48:37.161272+00:00",
   "files": [
     "alerts.csv",
     "career_scorecard.csv",
@@ -19,11 +19,11 @@
   },
   "row_counts": {
     "market_metrics.csv": 3,
-    "alerts.csv": 1,
+    "alerts.csv": 2,
     "career_scorecard.csv": 3,
     "holdings_valuation.csv": 15,
     "workforce_state_setting.csv": 459,
-    "market_prices.csv": 809,
+    "market_prices.csv": 806,
     "education_attainment.csv": 2
   }
 }

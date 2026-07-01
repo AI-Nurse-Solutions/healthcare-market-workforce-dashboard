@@ -1,16 +1,16 @@
 index,rank,ticker,company,region,recent_earnings_surprise_pct,price_to_earnings,source_note
-S&P 500 Health Care Select Sector Index,1,LLY,Eli Lilly and Company,United States,,39.47,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
-S&P 500 Health Care Select Sector Index,2,JNJ,Johnson & Johnson,United States,,27.14,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
-S&P 500 Health Care Select Sector Index,3,ABBV,AbbVie Inc.,United States,,107.92,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
-S&P 500 Health Care Select Sector Index,4,MRK,"Merck & Company, Inc.",United States,,32.52,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
-S&P 500 Health Care Select Sector Index,5,ABT,Abbott Laboratories,United States,,24.79,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
-MSCI World Health Care Index (IXJ ETF proxy),1,LLY,Eli Lilly and Company,Global developed,,39.47,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
-MSCI World Health Care Index (IXJ ETF proxy),2,JNJ,Johnson & Johnson,Global developed,,27.14,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
-MSCI World Health Care Index (IXJ ETF proxy),3,NOVN.SW,NOVARTIS N,Global developed,,21.85,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
+S&P 500 Health Care Select Sector Index,1,LLY,Eli Lilly and Company,United States,,42.55,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
+S&P 500 Health Care Select Sector Index,2,JNJ,Johnson & Johnson,United States,,29.43,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
+S&P 500 Health Care Select Sector Index,3,ABBV,AbbVie Inc.,United States,,123.35,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
+S&P 500 Health Care Select Sector Index,4,MRK,"Merck & Company, Inc.",United States,,36.2,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
+S&P 500 Health Care Select Sector Index,5,ABT,Abbott Laboratories,United States,,25.42,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
+MSCI World Health Care Index (IXJ ETF proxy),1,LLY,Eli Lilly and Company,Global developed,,42.55,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
+MSCI World Health Care Index (IXJ ETF proxy),2,JNJ,Johnson & Johnson,Global developed,,29.43,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
+MSCI World Health Care Index (IXJ ETF proxy),3,NOVN.SW,NOVARTIS N,Global developed,,22.17,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
 MSCI World Health Care Index (IXJ ETF proxy),4,ROG.SW,ROG.SW,Global developed,,,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
-MSCI World Health Care Index (IXJ ETF proxy),5,AZN.L,ASTRAZENECA PLC ORD SHS $0.25,Global developed,,27.2,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
-Nifty Healthcare Index (^CNXPHARMA proxy),1,SUNPHARMA.NS,SUN PHARMACEUTICAL IND L,India,,38.13,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
-Nifty Healthcare Index (^CNXPHARMA proxy),2,CIPLA.NS,CIPLA LTD,India,,28.08,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
-Nifty Healthcare Index (^CNXPHARMA proxy),3,DIVISLAB.NS,DIVI S LABORATORIES LTD,India,,68.74,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
-Nifty Healthcare Index (^CNXPHARMA proxy),4,DRREDDY.NS,DR. REDDY S LABORATORIES,India,,24.52,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
-Nifty Healthcare Index (^CNXPHARMA proxy),5,APOLLOHOSP.NS,APOLLO HOSPITALS ENTER. L,India,,62.24,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
+MSCI World Health Care Index (IXJ ETF proxy),5,AZN.L,ASTRAZENECA PLC ORD SHS $0.25,Global developed,,28.02,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
+Nifty Healthcare Index (^CNXPHARMA proxy),1,SUNPHARMA.NS,SUN PHARMACEUTICAL IND L,India,,38.98,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
+Nifty Healthcare Index (^CNXPHARMA proxy),2,CIPLA.NS,CIPLA LTD,India,,30.3,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
+Nifty Healthcare Index (^CNXPHARMA proxy),3,DIVISLAB.NS,DIVI S LABORATORIES LTD,India,,67.68,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
+Nifty Healthcare Index (^CNXPHARMA proxy),4,DRREDDY.NS,DR. REDDY S LABORATORIES,India,,26.05,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
+Nifty Healthcare Index (^CNXPHARMA proxy),5,APOLLOHOSP.NS,APOLLO HOSPITALS ENTER. L,India,,63.63,Top holdings watchlist/proxy; P/E and surprise via yfinance when available
